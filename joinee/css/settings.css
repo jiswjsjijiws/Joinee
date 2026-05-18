@@ -1,0 +1,389 @@
+
+@media (max-width: 768px){
+
+    .settings{
+        font-weight: bold;
+        font-size: 30px;
+        color:rgb(0, 123, 255);
+        margin-bottom: 0;
+        margin-top: 120px;
+    }
+
+    .grid{
+        display: grid;
+        grid-template-columns: 125px 1fr;
+        background-color: rgb(0, 123, 255);
+        margin-top: 10px;
+        color: white;
+        height: 550px
+    }
+
+    .username input{
+        margin-left: 40px;
+        width: 80%;
+        height: 35px;
+        border-radius: 5px;
+        background-color: rgb(229, 229, 229);
+        color: black;
+    }
+
+    .username h2{
+        margin-left: 40px;
+    }
+
+    .password input{
+        margin-left: 40px;
+        width: 80%;
+        height: 35px;
+        border-radius: 5px;
+        background-color: rgb(229, 229, 229);
+        color: black;  
+    }
+
+    .password h2{
+        margin-left: 40px;
+    }
+
+
+    .userSettings{
+        display: flex;
+        flex-direction: column;
+        gap: 90px;
+        border-right: 1px solid white;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .profilePic h2{
+        margin-left: 40px;
+    }
+
+    .profilePic img{
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+        margin-left: 90px;
+    }
+
+    .change{
+        background-color: white;
+        color:rgb(0, 123, 255);
+        margin-left: 115px;
+        border-radius: 5px;
+        font-weight: bold;
+        font-size: 12px;
+        padding: 5px;
+
+    }
+
+    .content{
+        position: relative;
+    }
+
+    .content p{
+        width: 90%;
+        height: 35px;
+        border-radius: 5px;
+        background-color: rgb(229, 229, 229);
+        color: black;
+        padding-left: 5px;
+        padding-top: 12px;
+    }
+
+    .changeContent{
+        position: static;
+    }
+
+    .changeContent p{
+        width: 90%;
+        height: 35px;
+        border-radius: 5px;
+        background-color: rgb(229, 229, 229);
+        color: black;
+        padding-left: 5px;
+        padding-top: 12px;       
+    }
+
+    .newUsername{
+        margin-left: 40px;
+    }
+
+    .newPassword{
+        margin-left: 40px;
+    }
+
+    .save{
+        background-color: white;
+        color:rgb(0, 123, 255);
+        margin-top: 40px;
+        margin-left: 40px;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+
+    .reveal{
+        width: 20px;
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+
+    .disclaimer{
+        background-color: white;
+        color: red;
+        border: 1px solid red;
+        border-radius: 5px;
+        width: 70%;
+        margin-left: 10px;
+    }
+
+    .disclaimer li{
+        padding-top: 5px;
+    }
+
+    .deleteAcc h2{
+        margin-left: 40px;
+    }
+
+    .deleteAcc input{
+        margin-left: 40px;
+    }
+
+    .confirmPassword{
+        width: 70%;
+        height: 35px;
+        border-radius: 5px;
+        background-color: rgb(229, 229, 229);
+        color: black;  
+    }
+
+    .deleteBtn{
+        background-color: red;
+        color:white;
+        margin-top: 10px;
+        margin-left: 40px;
+        border-radius: 5px;
+        font-weight: bold;
+
+    }
+
+    .errorspace{
+        color: red;
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+    .dltErrorspace{
+        color: red;
+        margin-left: 40px;
+        margin-top: 20px;      
+    }
+
+    .back{
+        background-color:rgb(0, 123, 255);
+        color:white;
+        margin-top: 40px;
+        margin-left: 20px;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+  
+}
+
+
+@media (min-width: 1024px){
+
+    .settings{
+        font-weight: bold;
+        font-size: 30px;
+        color:rgb(0, 123, 255);
+        margin-bottom: 0;
+        margin-top: 80px;
+        margin-left: 22%;
+    }
+
+
+    .grid{
+        display: grid;
+        grid-template-columns: 125px 1fr;
+        background-color: rgb(0, 123, 255);
+        margin-top: 10px;
+        color: white;
+        position: relative;
+        width: 50%;
+        height: 500px;
+        justify-self: center;
+        border-radius: 5px;
+    }
+
+    .username input{
+        margin-left: 40px;
+        width: 300px;
+        height: 35px;
+        border-radius: 5px;
+        background-color: rgb(229, 229, 229);
+        color: black;
+    }
+
+    .username h2{
+        margin-left: 40px;
+    }
+
+    .password input{
+        margin-left: 40px;
+        width: 300px;
+        height: 35px;
+        border-radius: 5px;
+        background-color: rgb(229, 229, 229);
+        color: black;  
+    }
+
+    .password h2{
+        margin-left: 40px;
+    }
+
+
+    .userSettings{
+        display: flex;
+        flex-direction: column;
+        gap: 90px;
+        border-right: 1px solid white;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .profilePic h2{
+        margin-left: 40px;
+    }
+
+    .profilePic img{
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+        margin-left: 90px;
+    }
+
+    .change{
+        background-color: white;
+        color:rgb(0, 123, 255);
+        margin-left: 115px;
+        border-radius: 5px;
+        font-weight: bold;
+        font-size: 12px;
+        padding: 5px;
+
+    }
+
+    .content{
+        position: relative;
+        margin-left: 20%;
+    }
+
+    .content p{
+        width: 90%;
+        height: 35px;
+        border-radius: 5px;
+        background-color: rgb(229, 229, 229);
+        color: black;
+        padding-left: 5px;
+        padding-top: 12px;
+    }
+
+    .changeContent{
+        position: static;
+        margin-left: 20%;
+    }
+
+    .changeContent p{
+        width: 90%;
+        height: 35px;
+        border-radius: 5px;
+        background-color: rgb(229, 229, 229);
+        color: black;
+        padding-left: 5px;
+        padding-top: 12px;       
+    }
+
+    .newUsername{
+        margin-left: 40px;
+    }
+
+    .newPassword{
+        margin-left: 40px;
+    }
+
+    .save{
+        background-color: white;
+        color:rgb(0, 123, 255);
+        margin-top: 40px;
+        margin-left: 40px;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+
+    .reveal{
+        width: 20px;
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+
+    .disclaimer{
+        background-color: white;
+        color: red;
+        border: 1px solid red;
+        border-radius: 5px;
+        width: 80%;
+        margin-left: 10px;
+    }
+
+    .disclaimer li{
+        padding-top: 5px;
+    }
+
+    .deleteAcc h2{
+        margin-left: 40px;
+    }
+
+    .deleteAcc input{
+        margin-left: 40px;
+    }
+
+    .confirmPassword{
+        width: 220px;
+        height: 35px;
+        border-radius: 5px;
+        background-color: rgb(229, 229, 229);
+        color: black;  
+    }
+
+    .deleteBtn{
+        background-color: red;
+        color:white;
+        margin-top: 10px;
+        margin-left: 40px;
+        border-radius: 5px;
+        font-weight: bold;
+
+    }
+
+    .errorspace{
+        color: red;
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+    .dltErrorspace{
+        color: red;
+        margin-left: 40px;
+        margin-top: 20px;      
+    }
+
+    .back{
+        background-color:rgb(0, 123, 255);
+        color:white;
+        border-radius: 5px;
+        font-weight: bold;
+        margin-left: 72%;
+        margin-top: 10px;
+    }
+  
+}

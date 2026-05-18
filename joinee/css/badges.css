@@ -1,0 +1,804 @@
+
+@media (max-width: 768px){
+
+    .category{
+        display: flex;
+        flex-direction: row;
+        color: rgb(0, 123, 255);
+        font-weight: bold;
+        font-size: 20px;
+        align-items: center;
+        justify-content: center;
+        gap: 20%;
+        margin-top: 25%;
+    }
+
+    .noBadges{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        color: rgb(173, 173, 173);
+        text-align: center;
+    }
+
+    .placeholder{
+        width: 100%;
+
+    }
+
+
+    .orgPic{
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+    }
+
+    .orgInfo{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .allBadges{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 100px;
+        justify-items: center;
+        gap: 40px;
+    }
+    
+    .participantBadges{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 40px;
+        justify-items: center;
+        gap: 40px;   
+    }
+
+    .badge{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        height: 100%;
+        justify-items: center;
+        align-items: center;
+        background-color: rgb(240, 240, 240);
+        border-radius: 5px;
+        font-weight: bold;
+        font-size: 20px;
+        color: rgb(0, 123, 255);
+        border: 5px solid rgb(0, 123, 255);
+    }
+
+    .badge img{
+        width: 90px;
+    }
+
+    .points{
+        color: white;
+        background-color: rgb(0, 123, 255);
+        border-radius: 5px;
+        width: 40%;
+        padding: 5px;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .actions{
+        display: flex;
+        flex-direction: row;
+        gap: 100px;
+    }
+
+    .fa-trash{
+        color: red;
+    }
+
+    .createBtn{
+        background-color: rgb(0, 123, 255);
+        color: white;
+        border-radius: 8px;
+        position: fixed;
+        width: 26%;
+        height: 40px;
+        font-weight: bold;
+        font-size: 18px;
+        left: 70%;
+        top: 90%;
+    }
+
+    .createBadge{
+        margin-top: 100px;
+        color: rgb(0, 123, 255);
+        width: 80%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        border-radius: 5px;
+    }
+
+    .badgeT{
+        width: 100%;
+        height: 40px;
+        padding-left: 10px;
+        border-radius: 5px;
+        background-color: rgb(229, 229, 229);
+        border-color: rgb(0, 123, 255);
+        border-style: solid;
+        align-self: center;
+        box-sizing: border-box;
+    }
+
+    .badgeP{
+        width: 100%;
+        height: 40px;
+        padding-left: 10px;
+        border-radius: 5px;
+        background-color: rgb(229, 229, 229);
+        border-color: rgb(0, 123, 255);
+        border-style: solid;
+        align-self: center;
+        box-sizing: border-box;
+    }
+
+
+    .badgeD{
+        width: 100%;
+        height: 150px;
+        padding-left: 10px;
+        border-radius: 5px;
+        border: solid 2px rgb(0, 123, 255);;
+        background-color: rgb(229, 229, 229);
+        align-self: center;
+        box-sizing: border-box;
+    }
+
+
+
+    .tier{
+        width: 100%;
+        height: 40px;
+        padding-left: 10px;
+        border-radius: 5px;
+        background-color: rgb(0, 123, 255);
+        color: white;
+        border-style: solid;
+        align-self: center;  
+        box-sizing: border-box;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .submit{
+        width: 100%;
+        height: 40px;
+        border-radius: 5px;
+        background-color: rgb(0, 123, 255);
+        color: white;
+        border-style: solid;
+        align-self: center;  
+        box-sizing: border-box;
+        margin-top: 40px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .errorspace{
+        color: red;
+        text-align: center;
+        font-weight: bold;
+    }
+
+
+    .noBadges img{
+        width:410px;
+    }
+
+    .selectedBadge{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        height: 50%;
+        justify-content: center;
+        align-items: center;
+        justify-self: center;
+        background-color: white;
+        border-radius: 5px;
+        font-weight: bold;
+        font-size: 20px;
+        color: rgb(0, 123, 255);
+        border: 5px solid rgb(0, 123, 255);
+        margin-top: 30%;
+    }
+
+    .selectedBadge img{
+        width: 200px;
+    }
+
+    .descriptionTitle{
+        display: flex;
+        width: fit-content;
+        border-bottom: 2px solid;
+        justify-self: center;
+        margin-bottom: 0;
+    }
+
+    .description{
+        width: 90%;
+        background-color: rgb(227, 227, 227);
+        height: 120px;
+        color: black;
+        border-radius: 5px;
+        font-size: 15px;
+        overflow-y: scroll;
+        margin-top: 20px;
+        font-weight: normal;
+        border: 3px solid rgb(0, 123, 255);
+    }
+
+    .selectedBadgePoints{
+        color: white;
+        background-color: rgb(0, 123, 255);
+        border-radius: 5px;
+        width:200px;
+        height: 50px;
+        padding: 5px;
+        font-size: 20px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .errormessage{
+        color: red;
+        font-size: 15px;
+    }
+
+   .joinee{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 600px;
+        justify-self: center;
+        gap: 5%;
+   }
+
+   .aboutJoinee{
+        display: flex;
+        flex-direction: row;
+        background-color: rgb(0, 123, 255);
+        color: white;
+        height: 45%;
+   }
+
+
+   .aboutMission{
+        display: flex;
+        flex-direction: row;
+        background-color: rgb(0, 123, 255);
+        color: white;
+        height: 45%;
+    }
+
+    .text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+   .aboutJoinee img{
+        width: 50%;
+    }
+
+   .aboutMission img{
+        width: 50%;
+    }
+
+    .errormessage{
+        color: red;
+        font-size: 15px;
+    }
+
+   .team{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 600px;
+        background-color: rgb(0, 123, 255);
+        justify-self: center;
+        color: white;
+    }
+
+    .side{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 15%;
+        font-weight: bold;
+        justify-content: center;
+        padding: 10px;
+        gap: 10%;
+        border-right: solid 1px white;
+    }
+
+    .weihanContent{
+        position: static;
+        display: flex;
+        flex-direction: column;
+        font-size: 12px;
+    }
+
+    .myProfile{
+        margin-left: 20%;
+    }
+    .founder{
+        width: 80%;
+        border-radius: 10px;
+    }
+
+    .contact{
+        display: flex;
+        flex-direction: row;
+        gap: 15%;
+        margin-left: 13%;
+        font-size: 20px;
+    }
+
+
+    .founderContent{
+        position: static;
+        padding: 10px;
+    }
+
+    .educationContent{
+        position: static;
+        display: flex;
+        flex-direction: column;
+        font-size: 12px;
+        padding: 20px;
+    }
+
+    .educationContent img{
+        width: 40%;
+        border-radius: 10px;
+        margin-left: 30%;
+    }
+
+    .projectsContent{
+        position: static;
+        display: flex;
+        flex-direction: column;
+        font-size: 12px;
+        padding: 20px;
+    }
+
+    .projectsContent img{
+        width: 40%;
+        margin-top: 20%;
+        border-radius: 10px;
+        box-shadow: 5px 5px 15px rgba(0,0,0,0.4);
+        margin-left: 30%;
+    }
+
+
+
+
+
+}
+
+
+@media (min-width: 1024px){
+
+    .category{
+        display: flex;
+        flex-direction: row;
+        color: rgb(0, 123, 255);
+        font-weight: bold;
+        font-size: 20px;
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+        margin-top: 80px
+    }
+
+    .noBadges{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        color: rgb(173, 173, 173);
+        text-align: center;
+    }
+
+    .placeholder{
+        width: 100%;
+
+    }
+
+
+    .orgPic{
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+    }
+
+    .orgInfo{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .allBadges{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-top: 100px;
+        justify-items: center;
+        gap: 40px;
+    }
+    
+    .participantBadges{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 40px;
+        justify-items: center;
+        gap: 40px;   
+    }
+
+    .badge{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        height: 400px;
+        justify-items: center;
+        align-items: center;
+        background-color: rgb(240, 240, 240);
+        border-radius: 5px;
+        font-weight: bold;
+        font-size: 20px;
+        color: rgb(0, 123, 255);
+        border: 5px solid rgb(0, 123, 255);
+    }
+
+    .badge img{
+        width: 140px;
+        margin-top: 60px;
+    }
+
+    .points{
+        color: white;
+        background-color: rgb(0, 123, 255);
+        border-radius: 5px;
+        width: 40%;
+        padding: 5px;
+        font-size: 18px;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .actions{
+        display: flex;
+        flex-direction: row;
+        gap: 200px;
+    }
+
+    .fa-trash{
+        color: red;
+    }
+
+    .createBtn{
+        background-color: rgb(0, 123, 255);
+        color: white;
+        border-radius: 8px;
+        position: fixed;
+        width: 10%;
+        height: 40px;
+        font-weight: bold;
+        font-size: 18px;
+        left: 85%;
+        top: 90%;
+        box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .createBadge{
+        margin-top: 80px;
+        color: rgb(0, 123, 255);
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        border-radius: 5px;
+    }
+
+    .badgeT{
+        width: 100%;
+        height: 40px;
+        padding-left: 10px;
+        border-radius: 5px;
+        background-color: rgb(229, 229, 229);
+        border-color: rgb(0, 123, 255);
+        border-style: solid;
+        align-self: center;
+        box-sizing: border-box;
+    }
+
+    .badgeP{
+        width: 100%;
+        height: 40px;
+        padding-left: 10px;
+        border-radius: 5px;
+        background-color: rgb(229, 229, 229);
+        border-color: rgb(0, 123, 255);
+        border-style: solid;
+        align-self: center;
+        box-sizing: border-box;
+    }
+
+
+    .badgeD{
+        width: 100%;
+        height: 150px;
+        padding-left: 10px;
+        border-radius: 5px;
+        border: solid 2px rgb(0, 123, 255);;
+        background-color: rgb(229, 229, 229);
+        align-self: center;
+        box-sizing: border-box;
+    }
+
+
+
+    .tier{
+        width: 100%;
+        height: 40px;
+        padding-left: 10px;
+        border-radius: 5px;
+        background-color: rgb(0, 123, 255);
+        color: white;
+        border-style: solid;
+        align-self: center;  
+        box-sizing: border-box;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .submit{
+        display: flex;
+        justify-self: center;
+        width: 50%;
+        height: 40px;
+        border-radius: 5px;
+        background-color: rgb(0, 123, 255);
+        color: white;
+        border-style: solid;
+        box-sizing: border-box;
+        margin-top: 40px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .errorspace{
+        color: red;
+        text-align: center;
+        font-weight: bold;
+    }
+
+
+    .noBadges img{
+        width:410px;
+    }
+
+    .selectedBadge{
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        height: 50%;
+        justify-items: center;
+        align-items: center;
+        justify-self: center;
+        background-color: white;
+        border-radius: 5px;
+        font-weight: bold;
+        font-size: 20px;
+        color: rgb(0, 123, 255);
+        border: 5px solid rgb(0, 123, 255);
+        margin-top: 10%;
+    }
+
+    .selectedBadge img{
+        width: 200px;
+    }
+
+    .selectedBadgePoints{
+        color: white;
+        background-color: rgb(0, 123, 255);
+        border-radius: 5px;
+        width:120px;
+        height: 40px;
+        padding: 5px;
+        font-size: 15px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .descriptionTitle{
+        display: flex;
+        width: fit-content;
+        border-bottom: 2px solid;
+        justify-self: center;
+        margin-bottom: 0;
+    }
+
+    .description{
+        width: 90%;
+        background-color: rgb(227, 227, 227);
+        height: 120px;
+        color: black;
+        border-radius: 5px;
+        font-size: 15px;
+        overflow-y: scroll;
+        margin-top: 20px;
+        font-weight: normal;
+        border: 3px solid rgb(0, 123, 255);
+    }
+
+   .joinee{
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        height: 600px;
+        justify-self: center;
+        gap: 5%;
+   }
+
+   .aboutJoinee{
+        display: flex;
+        flex-direction: row;
+        border-radius: 10px;
+        background-color: rgb(0, 123, 255);
+        color: white;
+        height: 45%;
+   }
+
+   .aboutMission{
+        display: flex;
+        flex-direction: row;
+        border-radius: 10px;
+        background-color: rgb(0, 123, 255);
+        color: white;
+        height: 45%;
+    }
+
+    .text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+   .aboutMission img{
+        width: 270px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .errormessage{
+        color: red;
+        font-size: 15px;
+    }
+
+   .team{
+        display: flex;
+        flex-direction: row;
+        width: 60%;
+        height: 500px;
+        background-color: rgb(0, 123, 255);
+        justify-self: center;
+        border-radius: 10px;
+        color: white;
+    }
+
+    .side{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 8%;
+        font-weight: bold;
+        justify-content: center;
+        padding: 10px;
+        gap: 10%;
+        border-right: solid 1px white;
+    }
+
+
+    .weihanContent{
+        position: static;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .founderContent{
+        margin-top: 30px;
+    }
+
+
+    .myProfile{
+        display: flex;
+        flex-direction: column;
+        margin-left: 40px;
+        margin-top: 15%;
+    }
+
+    .contact{
+        display: flex;
+        flex-direction: row;
+        margin-left: 40px;
+        margin-top: 10px;
+        gap: 20%;
+        font-size: 20px;
+    }
+
+    .founder{
+        width: 100%;
+        border-radius: 10px;
+    }
+
+
+    .educationContent{
+        position: static;
+        display: flex;
+        flex-direction: column;
+        margin-left: 40px;
+    }
+
+    .educationContent img{
+        width: 140px;
+        height: 140px;
+        border-radius: 10px;
+        margin-top: 40px;
+    }
+
+    .school{
+        display: flex;
+        flex-direction: row;
+        margin-top: 40px;
+    }
+
+    .schoolContent{
+        padding-left: 20px;
+    }
+
+    .projectsContent{
+        position: static;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .firstProject{
+        display: flex;
+        flex-direction: column;
+        padding-left: 40px;
+        margin-top: 20px;
+    }
+
+    .firstProject img{
+        align-self: center;
+        width: 20%;
+        border-radius: 10px;
+        box-shadow: 5px 5px 15px rgba(0,0,0,0.4);
+    }
+
+
+
+
+
+
+
+
+
+
+}

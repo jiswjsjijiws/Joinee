@@ -1,0 +1,467 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+@media (max-width: 768px){
+
+    .title{
+        background-color: rgb(0, 123, 255);
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        gap: 12%;
+        height: 70px;
+        font-size: 140%;
+        color: white;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1100;
+    }
+
+    .logo{
+        margin-left: 20px;
+    }
+
+    .logo img{
+        height: 15vh;
+        width: auto;
+    }
+
+    .sidebar{
+       background-color: black;
+       color: white;
+       font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+       font-weight: bold;
+       width: 40%;
+       position: fixed;
+       top: 70px;
+       bottom: 0;
+       z-index: 1000;
+       overflow-y: auto;
+       scrollbar-width: none;
+    }
+
+    .profile{
+        margin-top: 20px;
+        text-align: center;
+        color:rgb(0, 123, 255);
+        display: flex;
+        flex-direction: column;
+    }
+    .userPic{
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+    }
+    .user{
+        font-size: 40px;
+    }
+
+    .greeting{
+        font-size: 25px;
+    }
+
+
+    .fa-xmark{
+        margin-left: 85%;
+        font-size: 20px;
+    }
+
+    .home{
+        display: flex;
+        margin-top: 40px;
+        height: 60px;
+        align-items: center;
+        padding-left: 15px;
+    }
+
+    .about{
+        display: flex;
+        margin-top: 40px;
+        height: 60px;
+        align-items: center;
+        padding-left: 15px;
+    }
+
+    .create{
+        display: flex;
+        margin-top: 40px;
+        height: 60px;
+        align-items: center;
+        padding-left: 15px;
+    }
+    
+    .myevents{
+        display: flex;
+        margin-top: 40px;
+        height: 60px;
+        align-items: center;
+        padding-left: 15px;
+    }
+
+    .attendance{
+        display: flex;
+        margin-top: 40px;
+        height: 60px;
+        align-items: center;
+        padding-left: 15px;
+    }
+    .settings{
+        display: flex;
+        margin-top: 40px;
+        height: 60px;
+        align-items: center;
+        padding-left: 15px;
+    }
+
+    .accounts{
+        display: flex;
+        margin-top: 40px;
+        height: 60px;
+        align-items: center;
+        padding-left: 15px;
+    }
+
+    .requests{
+        display: flex;
+        margin-top: 40px;
+        height: 60px;
+        align-items: center;
+        padding-left: 15px;
+    }
+
+    .analytics{
+        display: flex;
+        margin-top: 40px;
+        height: 60px;
+        align-items: center;
+        padding-left: 15px;        
+    }
+
+    .leaderboard{
+        display: flex;
+        margin-top: 40px;
+        height: 60px;
+        align-items: center;
+        padding-left: 15px;        
+    }
+
+    .badges{
+        display: flex;
+        margin-top: 40px;
+        height: 60px;
+        align-items: center;
+        padding-left: 15px;
+    }
+    .logout{
+        display: flex;
+        margin-top: 40px;
+        height: 60px;
+        align-items: center;
+        padding-left: 15px;
+        color: red;
+    }
+
+    .participantPoints{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        border: 3px solid rgb(0, 77, 160);
+        font-size: 18px;
+        font-weight: bold;
+        height: 70%;
+        width: 20%;
+    }
+
+    .home:active{
+        background-color: rgb(0, 123, 255);
+    }
+
+    .about:active{
+        background-color: rgb(0, 123, 255);
+    }
+
+    .create:active{
+        background-color: rgb(0, 123, 255);
+    }
+
+    .myevents:active{
+        background-color: rgb(0, 123, 255);
+    }
+    .attendance:active{
+        background-color: rgb(0, 123, 255);
+
+    }
+    
+    .settings:active{
+        background-color: rgb(0, 123, 255);
+
+    }
+
+    .requests:active{
+        background-color: rgb(0, 123, 255);
+
+    }
+
+    .accounts:active{
+        background-color: rgb(0, 123, 255);
+
+    }
+
+    .analytics:active{
+        background-color: rgb(0, 123, 255);
+
+    }
+
+    .badges:active{
+        background-color: rgb(0, 123, 255);
+
+    }
+
+    .leaderboard:active{
+        background-color: rgb(0, 123, 255);
+
+    }
+
+    .logout:active{
+        background-color: rgb(0, 123, 255);
+
+    }
+}
+
+@media (min-width: 1024px){
+
+    .title{
+        background-color: rgb(0, 123, 255);
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        gap: 38%;
+        height: 70px;
+        font-size: 140%;
+        color: white;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1100;
+    }
+
+    .logo{
+        margin-left: 20px;
+    }
+
+    .logo img{
+        height: 15vh;
+        width: auto;
+    }
+
+    .sidebar{
+       background-color: black;
+       color: white;
+       font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+       font-weight: bold;
+       width: 15%;
+       position: fixed;
+       top: 70px;
+       bottom: 0;
+       z-index: 1000;
+       overflow-y: auto;
+       scrollbar-width: none;
+    }
+
+    .profile{
+        margin-top: 20px;
+        text-align: center;
+        color:rgb(0, 123, 255);
+        display: flex;
+        flex-direction: column;
+    }
+    .userPic{
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+    }
+    .user{
+        font-size: 40px;
+    }
+
+    .greeting{
+        font-size: 25px;
+    }
+
+
+    .fa-xmark{
+        margin-left: 85%;
+        font-size: 20px;
+    }
+
+    .home{
+        display: flex;
+        margin-top: 40px;
+        height: 60px;
+        align-items: center;
+        padding-left: 40px;
+    }
+
+    .about{
+        display: flex;
+        margin-top: 40px;
+        height: 60px;
+        align-items: center;
+        padding-left: 40px;
+    }
+
+    .create{
+        display: flex;
+        margin-top: 40px;
+        height: 60px;
+        align-items: center;
+        padding-left: 40px;
+    }
+    
+    .myevents{
+        display: flex;
+        margin-top: 40px;
+        height: 60px;
+        align-items: center;
+        padding-left: 40px;
+    }
+
+    .attendance{
+        display: flex;
+        margin-top: 40px;
+        height: 60px;
+        align-items: center;
+        padding-left: 40px;
+    }
+    .settings{
+        display: flex;
+        margin-top: 40px;
+        height: 60px;
+        align-items: center;
+        padding-left: 40px;
+    }
+
+    .accounts{
+        display: flex;
+        margin-top: 40px;
+        height: 60px;
+        align-items: center;
+        padding-left: 40px;
+    }
+
+    .requests{
+        display: flex;
+        margin-top: 40px;
+        height: 60px;
+        align-items: center;
+        padding-left: 40px;
+    }
+
+    .analytics{
+        display: flex;
+        margin-top: 40px;
+        height: 60px;
+        align-items: center;
+        padding-left: 40px;  
+    }
+
+    .leaderboard{
+        display: flex;
+        margin-top: 40px;
+        height: 60px;
+        align-items: center;
+        padding-left: 40px;  
+    }
+
+    .badges{
+        display: flex;
+        margin-top: 40px;
+        height: 60px;
+        align-items: center;
+        padding-left: 40px;
+    }
+    .logout{
+        display: flex;
+        margin-top: 40px;
+        height: 60px;
+        align-items: center;
+        padding-left: 40px;
+        color: red;
+    }
+
+    .participantPoints{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        border: 3px solid rgb(0, 77, 160);
+        font-size: 18px;
+        font-weight: bold;
+        height: 70%;
+        width: 7%;
+    }
+
+    .home:active{
+        background-color: rgb(0, 123, 255);
+    }
+
+    .about:active{
+        background-color: rgb(0, 123, 255);
+    }
+
+    .create:active{
+        background-color: rgb(0, 123, 255);
+    }
+
+    .myevents:active{
+        background-color: rgb(0, 123, 255);
+    }
+    .attendance:active{
+        background-color: rgb(0, 123, 255);
+
+    }
+    
+    .settings:active{
+        background-color: rgb(0, 123, 255);
+
+    }
+
+    .requests:active{
+        background-color: rgb(0, 123, 255);
+
+    }
+
+    .accounts:active{
+        background-color: rgb(0, 123, 255);
+
+    }
+
+    .analytics:active{
+        background-color: rgb(0, 123, 255);
+
+    }
+
+    .badges:active{
+        background-color: rgb(0, 123, 255);
+
+    }
+
+    .leaderboard:active{
+        background-color: rgb(0, 123, 255);
+
+    }
+
+    .logout:active{
+        background-color: rgb(0, 123, 255);
+
+    }
+}

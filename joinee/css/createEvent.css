@@ -1,0 +1,894 @@
+
+@media (max-width: 768px){
+
+    .eventContent{
+        display: flex;
+        flex-direction: column;
+        color: rgb(0, 123, 255);
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 120px;
+        justify-self: center;
+        width: 70%;
+        
+    }
+
+    .eventContent label{ 
+        margin-top: 20px;
+    }
+
+    .eventTitle{
+        width: 100%;
+        height: 40px;
+        padding-left: 10px;
+        border-radius: 5px;
+        background-color: rgb(229, 229, 229);
+        border-color: rgb(0, 123, 255);
+        border-style: solid;
+        align-self: center;
+        box-sizing: border-box;
+    }
+
+
+    .capacity{
+        width: 100%;
+        height: 40px;
+        padding-left: 10px;
+        border-radius: 5px;
+        background-color: rgb(229, 229, 229);
+        border-color: rgb(0, 123, 255);
+        border-style: solid;
+        align-self: center;
+        box-sizing: border-box;
+    }
+
+    .location{
+        width: 100%;
+        height: 40px;
+        padding-left: 10px;
+        border-radius: 5px;
+        background-color: rgb(229, 229, 229);
+        border-color: rgb(0, 123, 255);
+        border-style: solid;
+        align-self: center;
+        box-sizing: border-box;
+    }  
+
+    .time{
+        width: 100%;
+        height: 40px;
+        padding-left: 10px;
+        border-radius: 5px;
+        background-color: rgb(229, 229, 229);
+        border-color: rgb(0, 123, 255);
+        border-style: solid;
+        align-self: center;
+        box-sizing: border-box;
+    }
+
+    .date{
+        width: 100%;
+        height: 40px;
+        padding-left: 10px;
+        border-radius: 5px;
+        background-color: rgb(229, 229, 229);
+        border-color: rgb(0, 123, 255);
+        border-style: solid;
+        align-self: center;
+        box-sizing: border-box;
+    }
+
+    .thumbnails{
+        width: 100%;
+        height: 40px;
+        padding-left: 10px;
+        border-radius: 5px;
+        background-color: rgb(229, 229, 229);
+        border-color: rgb(0, 123, 255);
+        border-style: solid;
+        align-self: center;
+        box-sizing: border-box;
+    }
+
+    .description{
+        width: 100%;
+        height: 200px;
+        padding-left: 10px;
+        border-radius: 5px;
+        background-color: rgb(229, 229, 229);
+        border-color: rgb(0, 123, 255);
+        border-style: solid;
+        align-self: center;  
+        box-sizing: border-box;
+    }
+
+    .points{
+        width: 100%;
+        height: 40px;
+        padding-left: 10px;
+        border-radius: 5px;
+        background-color: rgb(229, 229, 229);
+        border-color: rgb(0, 123, 255);
+        border-style: solid;
+        align-self: center;
+        box-sizing: border-box;
+    }
+
+    .category{
+        width: 100%;
+        height: 40px;
+        padding-left: 10px;
+        border-radius: 5px;
+        background-color: rgb(0, 123, 255);
+        color: white;
+        border-style: solid;
+        align-self: center;  
+        box-sizing: border-box;
+    }
+
+    .categoryLabel{
+        margin-top: 10px;
+    }
+
+    .next{
+        width: 100%;
+        height: 40px;
+        padding-left: 10px;
+        border-radius: 5px;
+        background-color: rgb(0, 123, 255);
+        color: white;
+        border-style: solid;
+        align-self: center;  
+        box-sizing: border-box;
+        margin-top: 20px;
+        font-size: 15px;
+    }
+
+ .custom{
+        width: 100%;
+        height: 40px;
+        padding-left: 10px;
+        border-radius: 5px;
+        background-color: rgb(229, 229, 229);
+        border-color: rgb(0, 123, 255);
+        border-style: solid;
+        align-self: center;
+        box-sizing: border-box;
+        align-items: center;
+    }
+
+    .submit{
+        width: 100%;
+        height: 40px;
+        border-radius: 5px;
+        background-color: rgb(0, 123, 255);
+        color: white;
+        border-style: solid;
+        align-self: center;  
+        box-sizing: border-box;
+        margin-top: 40px;
+        font-size: 15px;
+    }
+
+    .deleteEvent{
+        width: 100%;
+        height: 40px;
+        border-radius: 5px;
+        background-color: red;
+        color: white;
+        border-style: solid;
+        align-self: center;  
+        box-sizing: border-box;
+        margin-top: 10px;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .upload{
+        width: 100%;
+        background-color: rgb(229, 229, 229);
+        text-align: center;
+        height: 280px;
+        border-radius: 5px;
+        border-style: dashed;
+    }
+
+    .fa-download{
+        margin-top: 30%;
+        font-size: 50px;
+        color:rgb(0, 123, 255);
+    }
+
+    .errorspace{
+        color: red;
+        font-size: 15px;
+        font-weight: normal;
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    .preview{
+        font-size: 13px;
+    }
+
+    .uploadedThumbnails{
+        width: 100%;
+        font-size: 13px;
+    }
+
+
+    .uploadedThumbnail{
+        width: 100%;
+    }
+
+    .deleteIcon{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 30%;
+    }
+
+
+    .fa-trash{
+        color: red;
+        font-size: 15px;
+        
+    }
+
+    .metricsTitle{
+        color: rgb(0, 123, 255);
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .impactContent{
+        display: flex;
+        flex-direction: column;
+        color: rgb(0, 123, 255);
+        font-size: 20px;
+        font-weight: bold;
+        justify-self: center;
+        width: 70%;
+        
+        
+    }
+
+    .impactContent input{
+        width: 100%;
+        height: 40px;
+        padding-left: 10px;
+        border-radius: 5px;
+        background-color: rgb(229, 229, 229);
+        border-color: rgb(0, 123, 255);
+        border-style: solid;
+        align-self: center;
+        box-sizing: border-box;
+    }
+
+    .impactContent label{
+        margin-top: 60px;
+    }
+
+
+    .impactMetric{
+        width: 100%;
+        height: 40px;
+        padding-left: 10px;
+        border-radius: 5px;
+        background-color: rgb(229, 229, 229);
+        border-color: rgb(0, 123, 255);
+        border-style: solid;
+        align-self: center;
+        box-sizing: border-box;
+    }
+
+    .submitImpact{
+        width: 100%;
+        height: 40px;
+        padding-left: 10px;
+        border-radius: 5px;
+        background-color: rgb(0, 123, 255);
+        color: white;
+        border-style: solid;
+        align-self: center;  
+        box-sizing: border-box;
+        margin-top: 20px;
+        font-size: 15px;
+    }
+
+    .metrics{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 120px;
+        text-align: center;
+    }
+
+    .wasteMetric{
+        background-color: rgb(0, 123, 255);
+        color: white;
+        width: 70%;
+        border-radius: 5px;
+        margin-bottom: 40px;
+        height: 220px;
+        box-shadow:0 8px 15px rgba(0, 0, 0, 0.15),0 20px 40px rgba(0, 0, 0, 0.12);
+    }
+
+    .others{
+        width: 70%;
+    }
+
+    .others div{
+        background-color: rgb(0, 123, 255);
+        color: white;
+        width: 100%;
+        border-radius: 5px;
+        margin-bottom: 40px;
+        height: 220px;
+        box-shadow:0 8px 15px rgba(0, 0, 0, 0.15),0 20px 40px rgba(0, 0, 0, 0.12);
+        padding-top: 10px;
+    }
+
+    .metricTitle{
+        font-weight: bold;
+        font-size: 22px;
+    }
+
+    .metricPercentage{
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    .totalAmount{
+        font-weight: bold;
+        color: white;
+    }
+
+    .attendanceMetrics{
+        border-radius: 10px;
+        border-style: solid;
+        background-color: rgb(0, 123, 255);  
+        color: white;
+        width: 300px;
+        height: 300px;
+    }
+
+
+    .checklist{
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        width: 80%;
+        font-size: 15px;
+        font-weight: bold;
+        color: rgb(0, 123, 255);
+        margin-top: 60px;
+    }
+
+    .info{
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(0, 123, 255);
+        color: white;
+        width: 90%;
+        justify-self: center;
+        border-radius: 10px;
+    }
+
+    .info p{
+        padding-left: 10px;
+    }
+
+    .infoTitle{
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 0;
+    }
+
+
+    .checklistTitle{
+        color: rgb(0, 123, 255);
+        margin-left: 20px;
+        margin-top: 60px;
+    }
+
+    .checkboxes{
+        margin-top: 20px;
+    }
+
+    .checkboxes label{
+        display: flex;
+        flex-direction: row;
+        margin-left: 20px;
+    }
+
+    .checkboxes p{
+        width: 70%;
+    }
+
+    .checkboxes input{
+        width: 20px;
+        margin-left: 60px;
+    }
+    .noAttendees{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        color: rgb(173, 173, 173);
+        text-align: center;
+        margin-top: 80px;
+    }
+  
+}
+
+
+@media (min-width: 1024px){
+
+    .eventContent{
+        display: flex;
+        flex-direction: column;
+        color: rgb(0, 123, 255);
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 120px;
+        justify-self: center;
+        width: 60%;
+        
+    }
+
+    .eventContent label{ 
+        margin-top: 20px;
+    }
+
+    .eventTitle{
+        width: 100%;
+        height: 40px;
+        padding-left: 10px;
+        border-radius: 5px;
+        background-color: rgb(229, 229, 229);
+        border-color: rgb(0, 123, 255);
+        border-style: solid;
+        align-self: center;
+        box-sizing: border-box;
+    }
+
+
+    .capacity{
+        width: 100%;
+        height: 40px;
+        padding-left: 10px;
+        border-radius: 5px;
+        background-color: rgb(229, 229, 229);
+        border-color: rgb(0, 123, 255);
+        border-style: solid;
+        align-self: center;
+        box-sizing: border-box;
+    }
+
+    .location{
+        width: 100%;
+        height: 40px;
+        padding-left: 10px;
+        border-radius: 5px;
+        background-color: rgb(229, 229, 229);
+        border-color: rgb(0, 123, 255);
+        border-style: solid;
+        align-self: center;
+        box-sizing: border-box;
+    }  
+
+    .time{
+        width: 100%;
+        height: 40px;
+        padding-left: 10px;
+        border-radius: 5px;
+        background-color: rgb(229, 229, 229);
+        border-color: rgb(0, 123, 255);
+        border-style: solid;
+        align-self: center;
+        box-sizing: border-box;
+    }
+
+    .date{
+        width: 100%;
+        height: 40px;
+        padding-left: 10px;
+        border-radius: 5px;
+        background-color: rgb(229, 229, 229);
+        border-color: rgb(0, 123, 255);
+        border-style: solid;
+        align-self: center;
+        box-sizing: border-box;
+    }
+
+    .thumbnails{
+        width: 100%;
+        height: 40px;
+        padding-left: 10px;
+        border-radius: 5px;
+        background-color: rgb(229, 229, 229);
+        border-color: rgb(0, 123, 255);
+        border-style: solid;
+        align-self: center;
+        box-sizing: border-box;
+    }
+
+    .description{
+        width: 100%;
+        height: 200px;
+        padding-left: 10px;
+        border-radius: 5px;
+        background-color: rgb(229, 229, 229);
+        border-color: rgb(0, 123, 255);
+        border-style: solid;
+        align-self: center;  
+        box-sizing: border-box;
+    }
+
+    .points{
+        width: 100%;
+        height: 40px;
+        padding-left: 10px;
+        border-radius: 5px;
+        background-color: rgb(229, 229, 229);
+        border-color: rgb(0, 123, 255);
+        border-style: solid;
+        align-self: center;
+        box-sizing: border-box;
+    }
+
+    .category{
+        width: 100%;
+        height: 40px;
+        padding-left: 10px;
+        border-radius: 5px;
+        background-color: rgb(0, 123, 255);
+        color: white;
+        border-style: solid;
+        align-self: center;  
+        box-sizing: border-box;
+    }
+
+    .categoryLabel{
+        margin-top: 10px;
+    }
+
+    .next{
+        display: flex;
+        width: 50%;
+        height: 40px;
+        padding-left: 10px;
+        border-radius: 5px;
+        background-color: rgb(0, 123, 255);
+        color: white;
+        border-style: solid;
+        align-self: center;  
+        justify-self: center;
+        box-sizing: border-box;
+        margin-top: 20px;
+        font-size: 15px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .custom{
+        width: 100%;
+        height: 40px;
+        padding-left: 10px;
+        border-radius: 5px;
+        background-color: rgb(229, 229, 229);
+        border-color: rgb(0, 123, 255);
+        border-style: solid;
+        align-self: center;
+        box-sizing: border-box;
+        align-items: center;
+    }
+
+    .submit{
+        width: 100%;
+        height: 40px;
+        border-radius: 5px;
+        background-color: rgb(0, 123, 255);
+        color: white;
+        border-style: solid;
+        align-self: center;  
+        box-sizing: border-box;
+        margin-top: 40px;
+        font-size: 15px;
+    }
+
+    .deleteEvent{
+        width: 100%;
+        height: 40px;
+        border-radius: 5px;
+        background-color: red;
+        color: white;
+        border-style: solid;
+        align-self: center;  
+        box-sizing: border-box;
+        margin-top: 10px;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .upload{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        background-color: rgb(229, 229, 229);
+        text-align: center;
+        height: 280px;
+        border-radius: 5px;
+        border-style: dashed;
+    }
+
+
+
+    .fa-download{
+        font-size: 50px;
+        color:rgb(0, 123, 255);
+    }
+
+    .errorspace{
+        color: red;
+        font-size: 15px;
+        font-weight: normal;
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    .preview{
+        font-size: 13px;
+    }
+
+    .uploadedThumbnails{
+        width: 100%;
+        font-size: 13px;
+    }
+
+
+    .uploadedThumbnail{
+        width: 20%;
+        margin-left: 20%;
+    }
+
+    .deleteIcon{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 30%;
+    }
+
+
+    .fa-trash{
+        color: red;
+        font-size: 15px;
+        
+    }
+
+    .metricsTitle{
+        color: rgb(0, 123, 255);
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .impactContent{
+        display: flex;
+        flex-direction: column;
+        color: rgb(0, 123, 255);
+        font-size: 20px;
+        font-weight: bold;
+        justify-self: center;
+        width: 70%;
+        
+        
+    }
+
+    .impactContent input{
+        width: 100%;
+        height: 40px;
+        padding-left: 10px;
+        border-radius: 5px;
+        background-color: rgb(229, 229, 229);
+        border-color: rgb(0, 123, 255);
+        border-style: solid;
+        align-self: center;
+        box-sizing: border-box;
+    }
+
+    .impactContent label{
+        margin-top: 60px;
+    }
+
+
+    .impactMetric{
+        width: 100%;
+        height: 40px;
+        padding-left: 10px;
+        border-radius: 5px;
+        background-color: rgb(181, 181, 181);
+        border-color: rgb(0, 123, 255);
+        border-style: solid;
+        align-self: center;
+        box-sizing: border-box;
+    }
+
+    .submitImpact{
+        width: 100%;
+        height: 40px;
+        padding-left: 10px;
+        border-radius: 5px;
+        background-color: rgb(0, 123, 255);
+        color: white;
+        border-style: solid;
+        align-self: center;  
+        box-sizing: border-box;
+        margin-top: 20px;
+        font-size: 15px;
+    }
+
+    .metrics{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 120px;
+    }
+
+    .metricTitle{
+        margin: 0;
+        font-size: 30px;
+        padding-top: 20px;
+    }
+
+    .metricPercentage{
+        font-size: 40px;
+    }
+
+    .wasteMetric{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 50%;
+        background-color: rgb(0, 123, 255);
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        text-align: center;
+        height: 200px;
+        border-radius: 10px;
+    }
+
+    .others{
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+        gap: 5px;
+        margin-top: 5px;
+    }
+
+    .waterMetric{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 50%;
+        background-color: rgb(0, 123, 255);
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        text-align: center;
+        height: 150px;
+        border-radius: 10px;
+    }
+
+    .electricityMetric{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 50%;
+        background-color: rgb(0, 123, 255);
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        height: 150px;
+        border-radius: 10px;
+    }
+
+    .totalAmount{
+        font-weight: bold;
+        color: white;
+    }
+
+    .attendanceMetrics{
+        border-radius: 10px;
+        border-style: solid;
+        background-color: rgb(0, 123, 255);  
+        color: white;
+        width: 300px;
+        height: 300px;
+    }
+
+
+    .checklist{
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        width: 80%;
+        font-size: 15px;
+        font-weight: bold;
+        color: rgb(0, 123, 255);
+        margin-top: 60px;
+    }
+
+    .info{
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(0, 123, 255);
+        color: white;
+        width: 90%;
+        border-radius: 10px;
+    }
+
+    .info p{
+        padding-left: 10px;
+    }
+
+    .infoTitle{
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 0;
+    }
+
+
+    .checklistTitle{
+        color: rgb(0, 123, 255);
+        margin-top: 60px;
+    }
+
+    .checkboxes{
+        margin-top: 20px;
+        background-color: rgb(233, 233, 233);
+        border-radius: 10px;
+    }
+
+    .checkboxes label{
+        display: flex;
+        flex-direction: row;
+        margin-left: 60px;
+    }
+
+    .checkboxes p{
+        width: 70%;
+    }
+
+    .checkboxes input{
+        width: 20px;
+        margin-left: 250px;
+    }
+    .noAttendees{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: rgb(173, 173, 173);
+        text-align: center;
+        margin-top: 80px;
+    }
+    .placeholder{
+        width: 30%;
+    }
+  
+}

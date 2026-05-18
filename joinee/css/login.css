@@ -1,0 +1,283 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+@media (max-width: 768px){
+
+    .title{
+        background-color: rgb(0, 123, 255);
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        height: 70px;
+        font-size: 140%;
+        color: white;
+    }
+
+
+
+    .login{
+        width: 100%;
+        margin-top: 20%;
+        color: rgb(0, 123, 255);
+        text-align: center;
+    }
+
+    .tagline{
+        color: black;
+    }
+
+    .username{
+        width: 70%;
+        height: 40px;
+        padding-left: 10px;
+        border-radius: 5px;
+        background-color:rgb(239, 239, 239);
+        border-color: rgb(0, 123, 255);
+        border-style: solid;
+        margin-top: 40px;
+    }
+
+    .password{
+        width: 70%;
+        height: 40px;
+        padding-left: 10px;
+        border-radius: 5px;
+        background-color:rgb(239, 239, 239);
+        border-color: rgb(0, 123, 255);
+        border-style: solid;
+        margin-top: 20px;
+    }
+
+    .name{
+        width: 70%;
+        height: 40px;
+        padding-left: 10px;
+        border-radius: 5px;
+        background-color:rgb(239, 239, 239);
+        border-color: rgb(0, 123, 255);
+        border-style: solid;
+        margin-top: 20px;
+    }
+
+    .tpnumber{
+        width: 70%;
+        height: 40px;
+        padding-left: 10px;
+        border-radius: 5px;
+        background-color:rgb(239, 239, 239);
+        border-color: rgb(0, 123, 255);
+        border-style: solid;
+        margin-top: 20px;
+    }
+
+    .purpose{
+        width: 70%;
+        height: 300px;
+        margin-top: 20px;
+        padding-left: 10px;
+        border-radius: 5px;
+        background-color: rgb(229, 229, 229);
+        border-color: rgb(0, 123, 255);
+        border-style: solid;
+        align-self: center;  
+        box-sizing: border-box;
+    }
+
+    .createAcc{
+        font-weight: bold;
+        font-size: 13px;
+        text-align: center;
+    }
+    
+    .hyperlinks{
+        font-weight: bold;
+        font-size: 13px;
+    }
+
+    .submit{
+        width: 74%;
+        height: 40px;
+        border-radius: 5px;
+        background-color: rgb(0, 123, 255);
+        color: white;
+        margin-top: 40px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .errorspace{
+        color: red;
+    }
+
+    .signup{
+        width: 74%;
+        height: 40px;
+        border-radius: 5px;
+        background-color: rgb(0, 123, 255);
+        color: white;
+        margin-top: 20px;
+        font-size: 15px;
+        font-weight: bold; 
+    }
+
+    .confirmation{
+        text-align: center;
+        color: rgb(0, 123, 255);
+        margin-top: 20%;
+    }
+
+    .confirmation img{
+        margin-top: 40px;
+    }
+
+
+
+  
+}
+
+@media (min-width: 1024px){
+
+    .title{
+        background-color: rgb(0, 123, 255);
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        height: 70px;
+        font-size: 140%;
+        color: white;
+    }
+
+
+
+    .login{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top:5%;
+        color: rgb(0, 123, 255);
+        text-align: center;
+    }
+
+    .tagline{
+        color: black;
+    }
+
+    .username{
+        width: 30%;
+        height: 40px;
+        padding-left: 10px;
+        border-radius: 5px;
+        background-color:rgb(239, 239, 239);
+        border-color: rgb(0, 123, 255);
+        border-style: solid;
+        margin-top: 40px;
+    }
+
+    .password{
+        width: 30%;
+        height: 40px;
+        padding-left: 10px;
+        border-radius: 5px;
+        background-color:rgb(239, 239, 239);
+        border-color: rgb(0, 123, 255);
+        border-style: solid;
+        margin-top: 20px;
+    }
+
+    .name{
+        width: 30%;
+        height: 40px;
+        padding-left: 10px;
+        border-radius: 5px;
+        background-color:rgb(239, 239, 239);
+        border-color: rgb(0, 123, 255);
+        border-style: solid;
+        margin-top: 20px;
+    }
+
+    .tpnumber{
+        width: 30%;
+        height: 40px;
+        padding-left: 10px;
+        border-radius: 5px;
+        background-color:rgb(239, 239, 239);
+        border-color: rgb(0, 123, 255);
+        border-style: solid;
+        margin-top: 20px;
+    }
+
+    .purpose{
+        width: 70%;
+        height: 300px;
+        margin-top: 20px;
+        padding-left: 10px;
+        border-radius: 5px;
+        background-color: rgb(229, 229, 229);
+        border-color: rgb(0, 123, 255);
+        border-style: solid;
+        align-self: center;  
+        box-sizing: border-box;
+    }
+
+    .createAcc{
+        font-weight: bold;
+        font-size: 13px;
+        text-align: center;
+    }
+    
+    .hyperlinks{
+        font-weight: bold;
+        font-size: 13px;
+    }
+
+    .submit{
+        width: 20%;
+        height: 40px;
+        border-radius: 5px;
+        background-color: rgb(0, 123, 255);
+        color: white;
+        margin-top: 40px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .errorspace{
+        color: red;
+    }
+
+    .signup{
+        width: 25%;
+        height: 40px;
+        border-radius: 5px;
+        background-color: rgb(0, 123, 255);
+        color: white;
+        margin-top: 20px;
+        font-size: 15px;
+        font-weight: bold; 
+    }
+
+    .confirmation{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: rgb(0, 123, 255);
+        margin-top: 5%;
+    }
+
+    .confirmation img{
+        margin-top: 40px;
+    }
+
+
+
+  
+}

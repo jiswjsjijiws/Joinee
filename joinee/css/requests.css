@@ -1,0 +1,204 @@
+@media (max-width: 768px){
+   .requestCard{
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        border-style: solid;
+        border-color:rgb(0, 123, 255);
+        border-radius: 10px;
+        border-width: 2px;
+        width: 80%;
+        color: rgb(0, 123, 255);
+        font-weight: bold;
+        margin-top: 120px;
+     }
+
+   .profileIcon{
+        text-align: center;
+        font-size: 90px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+     }
+
+   .name{
+        text-align: center;
+        font-size: 25px;
+     }
+
+     .right{
+          display: flex;
+          flex-direction: column;
+     }
+
+   .userInfo{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        padding-left: 10px;
+        background-color: rgb(0, 123, 255);
+        color: white;
+        width: 80%;
+        border-radius: 10px;
+     }
+
+   .purpose{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        padding-left: 10px;
+        background-color: rgb(0, 123, 255);
+        color: white;
+        width: 80%;
+        border-radius: 10px;
+        height: 70px;
+        overflow-y: scroll;
+        margin-top: 20px;
+     }
+
+   .decision{
+        display: flex;
+        flex-direction: row;
+        align-self: center;
+        color: white;
+        font-weight: bold;
+        gap: 40px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+     }
+
+   .approve{
+        background-color: green;
+        color: white;
+        padding: 10px;
+        border-radius: 10px;
+     }
+
+   .reject{
+        background-color: red;
+        color: white;
+        padding: 10px;
+        border-radius: 10px;
+     }
+
+    .noRequests{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        align-items: center;
+        justify-self: center;
+        color: rgb(173, 173, 173);
+        font-weight: bold;
+        font-size: 20px;
+     }
+  
+}
+
+@media (min-width: 1024px){
+   .requestCard{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-self: center;
+        border-style: solid;
+        border-color:rgb(0, 123, 255);
+        border-radius: 10px;
+        border-width: 2px;
+        width: 60%;
+        color: rgb(0, 123, 255);
+        font-weight: bold;
+        margin-top: 120px;
+        height: 500px;
+     }
+
+     .requestContent{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+     }
+
+   .profileIcon{
+        text-align: center;
+        font-size: 140px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+     }
+
+   .name{
+        text-align: center;
+        font-size: 30px;
+     }
+
+     .right{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+     }
+
+   .userInfo{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        padding-left: 10px;
+        background-color: rgb(0, 123, 255);
+        color: white;
+        width: 80%;
+        border-radius: 10px;
+        height: 30%;
+     }
+
+
+   .purpose{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        padding-left: 10px;
+        background-color: rgb(0, 123, 255);
+        color: white;
+        width: 80%;
+        border-radius: 10px;
+        overflow-y: scroll;
+        margin-top: 20px;
+        height: 140px;
+        font-weight: normal;
+     }
+
+   .decision{
+        display: flex;
+        flex-direction: row;
+        align-self: center;
+        color: white;
+        font-weight: bold;
+        gap: 40px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+     }
+
+   .approve{
+        background-color: green;
+        color: white;
+        padding: 10px;
+        border-radius: 10px;
+     }
+
+   .reject{
+        background-color: red;
+        color: white;
+        padding: 10px;
+        border-radius: 10px;
+     }
+
+    .noRequests{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: rgb(173, 173, 173);
+        font-weight: bold;
+        font-size: 20px;
+     }
+  
+}
+
+
+
+

@@ -1,0 +1,371 @@
+@media (max-width: 768px){
+    .selectRole{
+        margin-left: 20px;
+        color: rgb(0, 123, 255);
+        margin-top: 100px;
+    }
+
+    .selectRole h2{
+        margin-bottom: 0;
+    }
+    
+    .usernameSearch{
+        margin-left: 20px;
+        color: rgb(0, 123, 255);
+    }
+
+    .usernameSearch h2{
+        margin-bottom: 0;
+    }
+
+    .usernameSearch input{
+        width: 90%;
+        height: 30px;
+        padding-left: 10px;
+        border-radius: 5px;
+        border: 2px solid rgb(0, 123, 255);
+        background-color: rgb(229, 229, 229);
+    } 
+
+    .profilePic{
+        width: 20px;
+        height: 20px;
+        border-radius: 50px;
+    }
+
+    .roles{
+        width: 90%;
+        height: 20px;
+        padding-left: 10px;
+        border-radius: 5px;
+        background-color: rgb(0, 123, 255);
+        color: white;
+        border-style: solid;
+        align-self: center;  
+        box-sizing: border-box;
+        height: 30px;
+    }
+
+    .submit{
+        height: 30px;
+        border-radius: 5px;
+        background-color: rgb(0, 123, 255);
+        color: white;
+        border-style: solid;
+        margin-left: 25px;
+        box-sizing: border-box;
+        margin-top: 20px;
+        font-size: 15px;
+    }
+
+    .saveChanges{
+        width: 100%;
+        height: 40px;
+        border-radius: 5px;
+        background-color: rgb(0, 123, 255);
+        color: white;
+        border-style: solid;
+        align-self: center;  
+        box-sizing: border-box;
+        margin-top: 20px;
+        font-size: 15px;
+    }
+
+    .userList{
+        width: 90%;
+        color: rgb(125, 125, 125);
+        width: 100%;
+        background-color: rgb(239, 239, 239);
+        margin-top: 60px;
+
+    }
+
+    .userList td{
+        height: 35px;
+        padding-left: 20px;
+        border: 1px solid rgb(125, 125, 125);
+    }
+
+    .userList th{
+        background-color: rgb(0, 123, 255);
+        color: white;
+        height: 40px;
+    }
+
+    .delete{
+        color: red;
+    }
+
+    .edit{
+        border-radius: 5px;
+        color: white;
+        background-color: rgb(0, 123, 255);
+    }
+
+    .userCreds{
+        display: flex;
+        flex-direction: column;
+        color: rgb(0, 123, 255);
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 100px;
+        justify-self: center;
+        width: 70%;
+        
+    }
+
+    .username{
+        margin-top: 40px;
+    }
+
+    .password{
+        margin-top: 60px;
+    }
+    .usernameInput{
+        width: 100%;
+        height: 40px;
+        padding-left: 10px;
+        border-radius: 5px;
+        background-color: rgb(229, 229, 229);
+        border-color: rgb(0, 123, 255);
+        border-style: solid;
+        align-self: center;
+        box-sizing: border-box;
+        margin-top: 30px;
+    } 
+
+    .passwordInput{
+        width: 100%;
+        height: 40px;
+        padding-left: 10px;
+        border-radius: 5px;
+        background-color: rgb(229, 229, 229);
+        border-color: rgb(0, 123, 255);
+        border-style: solid;
+        align-self: center;
+        box-sizing: border-box;
+        margin-top: 30px;
+    }  
+
+    .changeProfile img{
+        display: flex;
+        width: 150px;
+        height: 150px;
+        border-radius: 80px;
+        justify-self: center;
+    }
+
+    .change{
+        background-color: white;
+        color:rgb(0, 123, 255);
+        margin-left: 115px;
+        border-radius: 5px;
+        font-weight: bold;
+        font-size: 12px;
+        padding: 5px;
+        border: 2px solid rgb(0, 123, 255);
+    }
+    .errorspace{
+        color: red;
+    }
+
+    .rank{
+        color: rgb(0, 123, 255);
+        font-weight: bold;
+        margin-left: 20px;
+        position: absolute;
+    }
+
+    .userDetails{
+        display: flex;
+        flex-direction: row;
+        gap: 20%;
+    }
+}
+
+@media (min-width: 1024px){
+    .selectRole{
+        margin-left: 20%;
+        color: rgb(0, 123, 255);
+        margin-top: 100px;
+    }
+
+    .selectRole h2{
+        margin-bottom: 0;
+    }
+    
+    .usernameSearch{
+        margin-left: 20%;
+        color: rgb(0, 123, 255);
+    }
+
+    .usernameSearch h2{
+        margin-bottom: 0;
+    }
+
+    .usernameSearch input{
+        width: 70%;
+        height: 30px;
+        padding-left: 10px;
+        border-radius: 5px;
+        border: 2px solid rgb(0, 123, 255);
+        background-color: rgb(229, 229, 229);
+    } 
+
+    .profilePic{
+        width: 20px;
+        height: 20px;
+        border-radius: 50px;
+    }
+
+    .roles{
+        width: 70%;
+        height: 20px;
+        padding-left: 10px;
+        border-radius: 5px;
+        background-color: rgb(0, 123, 255);
+        color: white;
+        border-style: solid;
+        align-self: center;  
+        box-sizing: border-box;
+        height: 30px;
+    }
+
+    .submit{
+        height: 30px;
+        border-radius: 5px;
+        background-color: rgb(0, 123, 255);
+        color: white;
+        border-style: solid;
+        margin-left: 20%;
+        box-sizing: border-box;
+        margin-top: 20px;
+        font-size: 15px;
+        margin-bottom: 60px;
+    }
+
+    .saveChanges{
+        width: 100%;
+        height: 40px;
+        border-radius: 5px;
+        background-color: rgb(0, 123, 255);
+        color: white;
+        border-style: solid;
+        align-self: center;  
+        box-sizing: border-box;
+        margin-top: 20px;
+        font-size: 15px;
+    }
+
+    .userList{
+        color: rgb(125, 125, 125);
+        background-color: white;
+        width: 80%;
+        background-color: rgb(239, 239, 239);
+        margin: 0 auto;
+        border-radius: 10px;
+    }
+
+    .userList td{
+        height: 35px;
+        padding-left: 20px;
+        text-align: center;
+        border: 1px solid rgb(125, 125, 125);
+    }
+
+    .userList th{
+        background-color: rgb(0, 123, 255);
+        color: white;
+        height: 40px;
+        text-align: center;
+    }
+
+    .delete{
+        color: red;
+    }
+
+    .edit{
+        border-radius: 5px;
+        color: white;
+        background-color: rgb(0, 123, 255);
+    }
+
+    .userCreds{
+        display: flex;
+        flex-direction: column;
+        color: rgb(0, 123, 255);
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 40px;
+        justify-self: center;
+        width: 70%;
+        
+    }
+
+    .username{
+        margin-top: 40px;
+    }
+
+    .password{
+        margin-top: 60px;
+    }
+    .usernameInput{
+        width: 100%;
+        height: 40px;
+        padding-left: 10px;
+        border-radius: 5px;
+        background-color: rgb(229, 229, 229);
+        border-color: rgb(0, 123, 255);
+        border-style: solid;
+        align-self: center;
+        box-sizing: border-box;
+        margin-top: 30px;
+    } 
+
+    .passwordInput{
+        width: 100%;
+        height: 40px;
+        padding-left: 10px;
+        border-radius: 5px;
+        background-color: rgb(229, 229, 229);
+        border-color: rgb(0, 123, 255);
+        border-style: solid;
+        align-self: center;
+        box-sizing: border-box;
+        margin-top: 30px;
+    }  
+
+    .changeProfile img{
+        display: flex;
+        width: 150px;
+        height: 150px;
+        border-radius: 80px;
+        justify-self: center;
+    }
+
+    .change{
+        background-color: white;
+        color:rgb(0, 123, 255);
+        margin-left: 115px;
+        border-radius: 5px;
+        font-weight: bold;
+        font-size: 12px;
+        padding: 5px;
+        border: 2px solid rgb(0, 123, 255);
+    }
+    .errorspace{
+        color: red;
+    }
+
+    .rank{
+        color: rgb(0, 123, 255);
+        font-weight: bold;
+        margin-left: 20%;
+    }
+
+    .userDetails{
+        display: flex;
+        flex-direction: row;
+        gap: 10%;
+    }
+}

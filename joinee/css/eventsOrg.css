@@ -1,0 +1,354 @@
+@media (max-width: 768px){
+    .noEvents{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        color: rgb(173, 173, 173);
+        text-align: center;
+        margin-top: 80px;
+    }
+
+    .placeholder{
+        width: 100%;
+
+    }
+
+    .events{
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        margin-top: 60px;
+        width: 80%;
+    }
+
+    .thumbnails{
+        display: flex;
+        flex-direction: row;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+        width: 100%;
+        height: 160px;
+    }
+
+    .event{
+        width: 100%;
+        font-weight: bold;
+        background-color: rgb(0, 123, 255);
+        color: white;
+        border-radius: 5px;
+        margin-top: 40px;
+        border: 2px solid rgb(0, 123, 255);
+    }
+
+    .event:active{
+        opacity: 0.5;
+    }
+ 
+    .eventTitle{
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .history{
+        display: grid;
+        grid-template-columns: 10px 1fr;
+    }
+
+    .eventStatus{
+        background-color: rgb(255, 183, 0);
+        border-radius: 10px;
+        width: max-content;
+        font-size: 15px;
+        padding-left: 5px;
+        padding-right: 5px;
+        height: 20px;
+        margin-left: 110px;
+    }
+
+    .editEvent{
+        color: white;
+        border-radius: 10px;
+        width: max-content;
+        font-size: 15px;
+        padding-left: 10px;
+    }
+
+    .viewParticipants{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 30%;
+    }
+
+    .eventPoints {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        color: rgb(0, 123, 255);
+        height: 30px;
+        width: 25%;
+        border-radius: 5px;
+        padding-right: 5px;
+    }
+
+    .orgPic{
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+    }
+
+    .orgInfo{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .eventCategory{
+        margin-left: 5px;
+        color: white;
+        background-color: green;
+        border-radius: 5px;
+        font-size: 10px;
+        padding: 5px;
+        width: fit-content;
+    }
+
+    .eventBottom{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 20%;
+        margin-left: 5px;
+    }
+
+    .filterCategory{
+        margin-left: 15%;
+        margin-top: 80px;
+    }
+
+
+    .filterCategory h2{
+        font-weight: bold;
+        color: rgb(0, 123, 255);
+    }
+
+
+    .filter{
+        width: 80%;
+        height: 40px;
+        padding-left: 10px;
+        border-radius: 5px;
+        background-color: rgb(0, 123, 255);
+        color: white;
+        border-style: solid;
+        align-self: center;  
+        box-sizing: border-box;
+    }
+
+    .points{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        border: 3px solid rgb(0, 77, 160);
+        background-color: rgb(0, 123, 255);
+        color: white;
+        font-size: 10px;
+        font-weight: bold;
+        width: 80%;
+        height: 50px;
+        margin-left: 30px;
+        margin-bottom: 10px;
+    }
+
+    .organizer{
+        display: flex;
+        flex-direction: row;
+        font-size: 12px;
+    }
+
+    .history{
+        display: grid;
+        grid-template-columns: 10px 1fr;
+    }
+}
+
+@media (min-width: 1024px){
+    .noEvents{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: rgb(173, 173, 173);
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
+
+    .events{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-left: 140px;
+        margin-top: 80px;
+    }
+
+    .thumbnails{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+        height: 120px;
+    }
+
+    .event{
+        width: 70%;
+        font-weight: bold;
+        background-color: rgb(0, 123, 255);
+        color: white;
+        border-radius: 5px;
+        margin-top: 40px;
+        border: 2px solid rgb(0, 123, 255);
+    }
+
+    .event:active{
+        opacity: 0.5;
+    }
+ 
+    .eventTitle{
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .history{
+        display: grid;
+        grid-template-columns: 10px 1fr;
+    }
+
+    .eventStatus{
+        background-color: rgb(255, 183, 0);
+        border-radius: 10px;
+        width: max-content;
+        font-size: 15px;
+        padding-left: 5px;
+        padding-right: 5px;
+        height: 20px;
+        margin-left: 110px;
+    }
+
+    .editEvent{
+        color: white;
+        border-radius: 10px;
+        width: max-content;
+        font-size: 15px;
+        padding-left: 10px;
+    }
+
+    .viewParticipants{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 30%;
+    }
+
+    .eventPoints {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        color: rgb(0, 123, 255);
+        height: 30px;
+        width: 25%;
+        border-radius: 5px;
+        padding-right: 5px;
+    }
+
+    .orgPic{
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+    }
+
+    .orgInfo{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .eventCategory{
+        margin-left: 5px;
+        color: white;
+        background-color: green;
+        border-radius: 5px;
+        font-size: 10px;
+        padding: 5px;
+        width: fit-content;
+    }
+
+    .eventBottom{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    .filterCategory{
+        margin-left: 10%;
+        margin-top: 100px;
+    }
+
+    .filterCategory h2{
+        font-weight: bold;
+        color: rgb(0, 123, 255);
+    }
+
+
+    .filter{
+        width: 80%;
+        height: 40px;
+        padding-left: 10px;
+        border-radius: 5px;
+        background-color: rgb(0, 123, 255);
+        color: white;
+        border-style: solid;
+        align-self: center;  
+        box-sizing: border-box;
+    }
+
+    .points{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        border: 3px solid rgb(0, 77, 160);
+        background-color: rgb(0, 123, 255);
+        color: white;
+        font-size: 12px;
+        font-weight: bold;
+        width: 100px;
+        height: 50px;
+        margin-left: 30px;
+        margin-bottom: 10px;
+    }
+
+    .organizer{
+        display: flex;
+        flex-direction: row;
+        font-size: 12px;
+        margin-right: 20px;
+    }
+
+    .history{
+        display: grid;
+        grid-template-columns: 10px 1fr;
+    }
+  
+}
